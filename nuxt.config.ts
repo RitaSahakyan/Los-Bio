@@ -19,6 +19,5 @@ export default defineNuxtConfig({
         }
       }
     }
-  },
-  modules: ['@nuxtjs/svgo'],
+  }
 })

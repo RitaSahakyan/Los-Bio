@@ -20,10 +20,4 @@ export default defineNuxtPlugin((nuxtApp) => {
   nuxtApp.vueApp.component('LucideMail', Mail)
   nuxtApp.vueApp.component('LucideRedo2', Redo2)
   nuxtApp.vueApp.component('LucideChevronDown', ChevronDown)
-
-  nuxtApp.vueApp.component('LucideMapPinBlue', withBlueColor(MapPin))
-  nuxtApp.vueApp.component('LucidePhoneBlue', withBlueColor(Phone))
-  nuxtApp.vueApp.component('LucideMailBlue', withBlueColor(Mail))
-  nuxtApp.vueApp.component('LucideRedo2Blue', withBlueColor(Redo2))
-  nuxtApp.vueApp.component('LucideChevronDownBlue', withBlueColor(ChevronDown))
 })

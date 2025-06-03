@@ -21,12 +21,12 @@ import Footer from '~/components/layouts/Footer.vue'
 
 <style scoped>
 .layout-default {
-  display: flex;
-  flex-direction: column;
   min-height: 100vh;
-  background-color: #00011A;
+  width: 1440px;
 }
 main {
   flex: 1;
 }
 </style>
+
+
